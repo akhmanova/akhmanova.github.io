@@ -1,10 +1,11 @@
 var routers={};
-routers['A104-7c6474']={
+routers['Rasbperry']= {
  "location": {
-  "lat": 37.5571359,
-  "lng": -121.96863389999999
+  "lat": 51.5923654,
+  "lng": 45.9608032
  },
- "accuracy": 57.0
+ "accuracy": 2968274.0
+}
 };
 routers['G306-7cc77c']={
  "location": {
