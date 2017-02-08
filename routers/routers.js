@@ -6,7 +6,7 @@ routers['Rasbperry']= {
  },
  "accuracy": 2968274.0
 }
-};
+;
 routers['G306-7cc77c']={
  "location": {
   "lat": 37.5552682,
