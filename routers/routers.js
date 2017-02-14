@@ -63,3 +63,10 @@ routers['k317-7aee64']={
  "accuracy": 64.0
 }
 
+routers['']=\n {
+ "location": {
+  "lat": 51.535347800000004,
+  "lng": 46.0100471
+ },
+ "accuracy": 45.0
+}
