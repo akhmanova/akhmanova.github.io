@@ -62,3 +62,11 @@ routers['k317-7aee64']={
  },
  "accuracy": 64.0
 };
+routers['gd-apartments-device-rpi3']=
+ {
+ "location": {
+  "lat": 51.5353643,
+  "lng": 46.0099899
+ },
+ "accuracy": 42.0
+};
