@@ -62,5 +62,4 @@ routers['k317-7aee64']={
  },
  "accuracy": 64.0
 };
-routers['']=\n 
-routers['']=\n 
+
