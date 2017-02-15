@@ -4,8 +4,15 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <title>Simple markers</title>
+    
     <script src="routers/routers.js">
     </script>
+    <script src="markerclusterer.js">
+    </script>
+
+<!--    <script src="https://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclusterer/src/markerclusterer.js">
+    </script>
+-->
     <style>
       html, body {
         height: 100%;
@@ -30,8 +37,12 @@
         Object.keys(routers).forEach( function (key) {
             markers[key] = new google.maps.Marker({ map: map, title: key, position: routers[key].location});
           });
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://raw.githubusercontent.com/akhmanova/akhmanova.github.io/master/m.png'});
+        
       }
     </script>
+    
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr5vgfxVsvvDON4mH3YeCEddmQvtMaAyg&callback=initMap">
     </script>
