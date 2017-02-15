@@ -30,7 +30,7 @@
         Object.keys(routers).forEach( function (key) {
             markers[key] = new google.maps.Marker({ map: map, title: key, position: routers[key].location});
           });
-        var markerCluster = new MarkerClusterer(map, markers,
+        var markerCluster = new MarkerClusterer(map, markers[key],
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
         
       }
