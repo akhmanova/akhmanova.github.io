@@ -1,8 +1,8 @@
 var routers={};
 routers['rpi3-gd-feb21-demo']={
  "location": {
-  "lat": 51.535404,
-  "lng": 46.0103095
+  "lat": 51.535555099999996,
+  "lng": 46.009806999999995
  },
- "accuracy": 29.0
+ "accuracy": 37.0
 };
